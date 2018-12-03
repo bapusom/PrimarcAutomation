@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="20767" started-at="2016-03-06T13:50:46Z" finished-at="2016-03-06T13:51:07Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="20767" started-at="2016-03-06T13:50:46Z" finished-at="2016-03-06T13:51:07Z">
+      <class name="com.persistent.primarc.tests.LoginTest">
+        <test-method status="PASS" signature="setUP()[pri:0, instance:com.persistent.primarc.tests.LoginTest@3866ee93]" name="setUP" is-config="true" duration-ms="57447" started-at="2016-03-06T19:19:49Z" finished-at="2016-03-06T19:20:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method status="PASS" signature="verifyLogin()[pri:0, instance:com.persistent.primarc.tests.LoginTest@3866ee93]" name="verifyLogin" duration-ms="20657" started-at="2016-03-06T19:20:46Z" description="verify the login functionality of normal user" finished-at="2016-03-06T19:21:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.persistent.primarc.tests.LoginTest@3866ee93]" name="teardown" is-config="true" duration-ms="95" started-at="2016-03-06T19:21:07Z" finished-at="2016-03-06T19:21:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLogin status=SUCCESS method=LoginTest.verifyLogin()[pri:0, instance:com.persistent.primarc.tests.LoginTest@3866ee93] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.persistent.primarc.tests.LoginTest@3866ee93]" name="quit" is-config="true" duration-ms="1753" started-at="2016-03-06T19:21:07Z" finished-at="2016-03-06T19:21:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.persistent.primarc.tests.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
